@@ -7,4 +7,8 @@ kubectl delete services mongodb-service mongoexpress-service
 
 kubectl delete secret mongodb-secret 
 
-kubectl delete configmap mongodb-config
+kubectl delete configmap mongodb-configmap
+
+docker stop minikube
+
+docker container prune
